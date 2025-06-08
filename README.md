@@ -40,21 +40,21 @@ A simple and interactive app built with Streamlit that lets you upload your own 
    cd chat-with-your-notes
 # 2. Create a Virtual Environment 
 
-python -m venv venv
-venv\Scripts\activate   # For Windows
+```python -m venv venv
+```venv\Scripts\activate   # For Windows
 ## OR
-source venv/bin/activate   # For Mac/Linux
+```source venv/bin/activate   # For Mac/Linux
 # 3. Install Required Packages
-pip install -r requirements.txt
+```pip install -r requirements.txt
 
 # 4. .env file
-OLLAMA_HOST=http://localhost:11434
-MODEL=llama3:8b
+```OLLAMA_HOST=http://localhost:11434
+   MODEL=llama3:8b
 
 # 5. Making sure Ollama is running 
-ollama run llama3:8b
+```ollama run llama3:8b
 
 # 6. Running streamlit app
-streamlit run main.py
+```streamlit run main.py
 
 
