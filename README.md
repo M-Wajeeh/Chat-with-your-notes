@@ -38,7 +38,7 @@ A simple and interactive app built with Streamlit that lets you upload your own 
    ```bash
    git clone https://github.com/your-username/chat-with-your-notes.git
    cd chat-with-your-notes
-# 2. Create a Virtual Environment 
+# 2. Create a Virtual Environment and running streamlit app 
 
 ```python -m venv venv
 ```venv\Scripts\activate   # For Windows
@@ -47,14 +47,14 @@ A simple and interactive app built with Streamlit that lets you upload your own 
 # 3. Install Required Packages
 ```pip install -r requirements.txt
 
-# 4. .env file
+ .env file
 ```OLLAMA_HOST=http://localhost:11434
    MODEL=llama3:8b
 
-# 5. Making sure Ollama is running 
+ Making sure Ollama is running 
 ```ollama run llama3:8b
 
-# 6. Running streamlit app
+ Running streamlit app
 ```streamlit run main.py
 
 
