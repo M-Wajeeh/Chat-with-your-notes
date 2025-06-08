@@ -17,7 +17,7 @@ A simple and interactive app built with Streamlit that lets you upload your own 
 
 ## Preview
 
-![App Preview](preview.png) 
+![App Preview](Interface.png) 
 
 ---
 
